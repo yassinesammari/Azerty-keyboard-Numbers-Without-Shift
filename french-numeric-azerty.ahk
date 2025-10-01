@@ -35,5 +35,8 @@ SC00A::Send "9"
 SC00B::Send "0"
 +SC00B::Send "{U+00E0}"   ; à
 
+SC00C::Send "{U+00B0}"   ; °
++SC00C::Send ")"          ; )
+
 ; Optional: If some apps still emit the original characters, you can consume keys:
 ; $SC002::$SC003::$SC004::$SC005::$SC006::$SC007::$SC008::$SC009::$SC00A::$SC00B::Return
